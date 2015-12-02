@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <TextView
+    android:id="@+id/activity_label"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Dynamix Simple Logger"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:onClick="" />
+
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Use the Eclipse DDMS perspective to view output." />
+
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text=" " />
+
+  <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnConnect"
+    android:text="Connect"
+    android:layout_marginBottom="10dp"></Button>
+
+  <Button
+      android:id="@+id/btnProgrammaticAcquisition"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Scan Using the Battery Level Plug-in" >
+</Button>
+
+  <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnInteractiveAcquisition"
+    android:text="Scan Using the Barcode Plug-in"
+    android:layout_marginBottom="10dp"></Button>
+
+  <Button
+      android:id="@+id/getDynamixInfo"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Get Dynamix Framework Information" />
+
+  <Button
+      android:id="@+id/btnConfigExamplePlugin"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Configure the Example Plug-in (requires org.example.dynamixplugin)" />
+
+  <Button
+      android:id="@+id/btnExamplePlugin"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Send Commands to Example Plug-in (requires org.example.dynamixplugin)" />
+
+  <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnDisconnect"
+    android:text="Disconnect"
+    android:layout_marginBottom="10dp"></Button>
+
+
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+  </LinearLayout>
+</LinearLayout>
