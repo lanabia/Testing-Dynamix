@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.ambientdynamix.contextplugins.ambientsound_1.0.0-datatypes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/org.ambientdynamix.contextplugins.ambientsound_1.0.0-datatypes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
